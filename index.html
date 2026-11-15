@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ORBITERA — Earth System Trend Investigation Platform</title>
+    <meta name="description" content="Desktop-first scientific intelligence platform for investigating NASA Earth science datasets, statistical trends, environmental anomalies, and multi-agent AI insights." />
+    <meta property="og:title" content="ORBITERA — Earth System Trend Investigation Platform" />
+    <meta property="og:description" content="Desktop-first scientific intelligence platform for investigating NASA Earth science datasets, statistical trends, environmental anomalies, and multi-agent AI insights." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        try {
+          var raw = localStorage.getItem('orbitera_settings_v1');
+          var theme = raw ? JSON.parse(raw).theme : 'dark';
+          if (theme !== 'light') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-white text-[#101828] dark:bg-[#050814] dark:text-[#F1F5F9] antialiased selection:bg-[#155EEF]/15 selection:text-[#155EEF] dark:selection:bg-[#38BDF8]/25 dark:selection:text-[#38BDF8]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,8 @@
+{
+  "name": "ORBITERA — Earth System Trend Investigation Platform",
+  "description": "Desktop-first scientific intelligence platform for investigating Earth science datasets, statistical trends, environmental anomalies, and multi-agent AI insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

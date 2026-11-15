@@ -1,0 +1,1449 @@
+# ORBITERA
+## ULTIMATE MASTER PROMPT
+### NASA Earth System Trend Detective — Full-Stack Desktop-First Scientific Intelligence Platform
+
+You are an elite multidisciplinary engineering and product development team consisting of:
+
+- Principal Full-Stack Software Architect
+- Senior React and TypeScript Engineer
+- NASA Earth Science Data Engineer
+- Multi-Agent AI Systems Architect
+- Scientific Data Analysis Engineer
+- Geospatial Visualization Engineer
+- UI/UX Design Director
+- Product Design Specialist
+- Accessibility Engineer
+- Environmental Research Analyst
+- Backend Systems Engineer
+- Quality Assurance Engineer
+
+Your mission is to design, architect, and implement a complete, fully functional, visually outstanding, scientifically credible, desktop-first web application named ORBITERA.
+
+The project is developed for the NASA Space Apps Challenge.
+
+Challenge:
+"Be An Earth System Trend Detective!"
+
+IMPORTANT:
+
+I do not want a basic website.
+I do not want a static dashboard.
+I do not want a generic AI chatbot.
+I do not want a simple college-project interface.
+I do not want a mobile-first application.
+
+I want a complete, advanced, professional desktop-oriented scientific intelligence platform.
+
+The website must be built primarily for laptop and desktop computers.
+
+Use Google Gemini as the foundation model and Google AI Studio as the development environment.
+
+Determine the appropriate API integration strategy yourself. I will allow Google AI Studio to configure the required model integration. Do not unnecessarily ask me for API implementation details.
+
+Use the strongest available reasoning, engineering capabilities, creativity, and problem-solving techniques.
+
+Your final output must be an actual functional application, not just a design mockup.
+
+---
+
+# 1. PROJECT IDENTITY
+
+Project Name: ORBITERA
+
+Full Name:
+Orbital Earth Intelligence & Trend Investigation Platform.
+
+Tagline:
+"Every Change on Earth Has a Story. ORBITERA Reveals It."
+
+Hero Headline:
+"Earth Is Changing. Discover the Signals."
+
+Project Domain:
+Earth Science + Space Technology + Environmental Intelligence + Multi-Agent AI.
+
+Platform:
+Desktop-First Full-Stack Web Application.
+
+Development Environment:
+Google AI Studio.
+
+Foundation Model:
+Google Gemini.
+
+Primary Data Source:
+NASA Earth Science Datasets.
+
+Primary Users:
+- Gen Z students.
+- College students.
+- Earth science enthusiasts.
+- Researchers.
+- Educators.
+- Environmental analysts.
+- Scientific data explorers.
+
+Core Mission:
+
+ORBITERA must enable users to investigate:
+
+- WHAT is changing on Earth?
+- WHERE is the change occurring?
+- WHEN did the change begin?
+- HOW is the change progressing?
+- HOW FAST is it changing?
+- WHY might the change be occurring?
+- WHICH environmental factors are associated with the change?
+- WHAT evidence supports the detected trend?
+- WHAT uncertainties exist?
+- WHAT should be investigated next?
+
+The platform must transform complex NASA Earth science datasets into accessible, interactive, scientifically grounded investigations.
+
+---
+
+# 2. MANDATORY DESKTOP-FIRST REQUIREMENT
+
+THIS IS A CRITICAL REQUIREMENT.
+
+The entire application must be designed primarily for desktop and laptop users.
+
+Do not create a mobile-first design and stretch it to desktop.
+
+Create a genuine desktop-oriented scientific intelligence platform.
+
+## Primary Screen Sizes
+
+Prioritize:
+
+- 1920 × 1080
+- 1600 × 900
+- 1440 × 900
+- 1366 × 768
+- 1280 × 800
+
+Primary design viewport:
+1440px desktop.
+
+## Desktop Layout
+
+Implement:
+
+- Persistent left sidebar.
+- Large central workspace.
+- Professional top navigation bar.
+- Multi-column analytical layouts.
+- Wide scientific charts.
+- Interactive maps.
+- Large data visualization panels.
+- Advanced filtering panels.
+- Side-by-side comparison workspaces.
+- Multi-agent workflow visualizations.
+- Expandable scientific detail panels.
+- Professional report previews.
+
+Suggested layout:
+
+Sidebar:
+Approximately 240px.
+
+Top Navigation:
+Approximately 72px.
+
+Main Content:
+Remaining viewport width.
+
+Content Padding:
+24–32px.
+
+Use a collapsible sidebar.
+
+KPI cards should appear in a horizontal row where sufficient space exists.
+
+Charts should use wide layouts.
+
+The website must make excellent use of widescreen space.
+
+Do not make the interface cramped.
+
+Do not create excessively narrow cards.
+
+Do not prioritize mobile over desktop.
+
+## Secondary Responsive Support
+
+Support tablet and mobile access as secondary requirements.
+
+On smaller screens:
+
+- Collapse the sidebar.
+- Stack content panels.
+- Simplify charts.
+- Preserve essential functionality.
+
+The desktop experience must remain the primary focus.
+
+---
+
+# 3. UI/UX DESIGN SYSTEM
+
+Create a premium, modern, bright scientific intelligence interface.
+
+STRICTLY USE A LIGHT THEME.
+
+DO NOT USE:
+
+- Dark dashboard theme.
+- Black-heavy interfaces.
+- Cyberpunk styling.
+- Excessive neon.
+- Generic AI chatbot layouts.
+- Excessive gradients.
+- Excessive glassmorphism.
+- Cluttered UI.
+- Childish Gen Z styling.
+- Overly decorative animations.
+
+The interface must feel:
+
+- Professional.
+- Scientific.
+- Intelligent.
+- Premium.
+- Futuristic but practical.
+- User-friendly.
+- Gen Z-friendly.
+- Accessible.
+- Trustworthy.
+- Innovative.
+
+## Color Palette
+
+Primary Background:
+#FFFFFF
+
+Secondary Background:
+#F5F9FF
+
+Primary Brand:
+#155EEF
+
+Secondary Brand:
+#06B6D4
+
+Accent:
+#38BDF8
+
+Primary Text:
+#101828
+
+Secondary Text:
+#667085
+
+Border:
+#E4EAF2
+
+Success:
+#16A34A
+
+Warning:
+#F59E0B
+
+Error:
+#DC2626
+
+Use consistent colors throughout the application.
+
+## Typography
+
+Use Inter, Manrope, or a comparable modern sans-serif font.
+
+Create a strong typography hierarchy for:
+
+- Page headings.
+- Section headings.
+- KPI values.
+- Chart titles.
+- Data labels.
+- Supporting descriptions.
+
+## UI Components
+
+Create a reusable design system with:
+
+- Buttons.
+- Input fields.
+- Dropdowns.
+- Search boxes.
+- Cards.
+- Data tables.
+- Tabs.
+- Modals.
+- Tooltips.
+- Notifications.
+- Loading skeletons.
+- Empty states.
+- Error states.
+- Chart panels.
+- Status indicators.
+- Progress indicators.
+- Navigation components.
+
+Maintain consistent spacing, typography, borders, shadows, and interaction states.
+
+---
+
+# 4. PREMIUM ORBITERA LANDING PAGE
+
+Create a visually stunning desktop-oriented landing page.
+
+## Hero Section
+
+Headline:
+
+"Earth Is Changing.
+Discover the Signals."
+
+Description:
+
+"Investigate hidden environmental trends using NASA Earth science data, computational intelligence, and collaborative AI agents."
+
+Primary CTA:
+Start an Investigation.
+
+Secondary CTA:
+Explore Earth Intelligence.
+
+Create a premium interactive Earth visualization.
+
+Include:
+
+- Earth globe.
+- Satellite-inspired orbital paths.
+- Environmental data signals.
+- Atmospheric layers.
+- Geographic markers.
+- Subtle animations.
+- Scientific visualization elements.
+
+Use a bright, clean background.
+
+The hero must communicate the project's purpose immediately.
+
+## Landing Page Sections
+
+1. Hero.
+2. Earth Is Always Changing.
+3. What ORBITERA Investigates.
+4. Six Specialized Intelligence Agents.
+5. NASA Earth Science Integration.
+6. Investigation Workflow.
+7. Interactive Earth Intelligence.
+8. Environmental Trend Discovery.
+9. Real-World Applications.
+10. Scientific Transparency.
+11. Final Call to Action.
+12. Professional Footer.
+
+---
+
+# 5. COMPLETE APPLICATION NAVIGATION
+
+Create a persistent desktop sidebar.
+
+Sidebar Items:
+
+1. Overview.
+2. New Investigation.
+3. Earth Data Explorer.
+4. Trend Intelligence.
+5. Anomaly Detection.
+6. Correlation Lab.
+7. Regional Comparison.
+8. Earth Intelligence Map.
+9. Agent Mission Center.
+10. Investigation Reports.
+11. Saved Investigations.
+12. Settings.
+
+Every page must be functional.
+
+Do not create navigation links leading to empty pages.
+
+Use professional icons.
+
+## Top Navigation Bar
+
+Include:
+
+- ORBITERA logo.
+- Global search.
+- Current investigation indicator.
+- Notification center.
+- Help.
+- Profile.
+- Settings.
+
+Keep the top navigation consistent throughout the application.
+
+---
+
+# 6. EARTH INTELLIGENCE DASHBOARD
+
+Create a premium desktop-oriented dashboard.
+
+Page Title:
+Earth Intelligence Overview.
+
+Subtitle:
+"Explore environmental signals, investigate detected trends, and discover how Earth's systems are changing."
+
+## KPI Cards
+
+Display:
+
+- Total Investigations.
+- Trends Detected.
+- Anomalies Identified.
+- Environmental Variables Analyzed.
+- NASA Data Sources.
+
+The values must come from actual application state or computed results.
+
+Never fabricate real scientific metrics.
+
+## Dashboard Charts
+
+Implement:
+
+1. Temperature Trend Overview.
+2. Precipitation Trend Overview.
+3. Environmental Change Timeline.
+4. Recent Investigations.
+5. Agent Workflow Activity.
+6. Anomaly Overview.
+7. Regional Investigation Summary.
+
+Use Recharts or an appropriate visualization library.
+
+Charts must be:
+
+- Interactive.
+- Responsive.
+- Accessible.
+- Readable.
+- Scientifically accurate.
+
+Use tooltips, legends, selectable time periods, and trend indicators.
+
+---
+
+# 7. NEW INVESTIGATION WORKSPACE
+
+Create an advanced desktop-oriented scientific investigation interface.
+
+This is one of the most important features.
+
+The workspace must resemble a modern scientific research environment.
+
+## Natural Language Investigation
+
+Create a large natural-language investigation input.
+
+Placeholder:
+
+"Describe the Earth-system trend you want to investigate..."
+
+Example:
+
+"Investigate temperature and precipitation trends in Bengaluru from 2001 to 2025."
+
+Other examples:
+
+"Analyze temperature changes in Mumbai."
+
+"Investigate drought-related environmental trends in Karnataka."
+
+"Compare rainfall patterns in Bengaluru and Chennai."
+
+"Identify unusual temperature patterns in India."
+
+"Investigate vegetation and precipitation relationships."
+
+"Analyze long-term environmental changes in California."
+
+The system must convert the user's query into a structured investigation configuration.
+
+## Investigation Controls
+
+Provide:
+
+- Geographic location.
+- Latitude.
+- Longitude.
+- Environmental variables.
+- Start date.
+- End date.
+- Dataset selection.
+- Temporal resolution.
+- Investigation type.
+
+## Investigation Types
+
+- Long-Term Trend Investigation.
+- Environmental Anomaly Investigation.
+- Regional Comparison.
+- Multi-Variable Relationship Investigation.
+- Seasonal Pattern Investigation.
+- Environmental Change Investigation.
+
+## Investigation Workflow
+
+The user submits the investigation.
+
+The system parses the query.
+
+Earth Scout identifies the relevant datasets.
+
+NASA data is retrieved.
+
+The scientific computation engine processes the measurements.
+
+The analytical agents investigate the results.
+
+The platform displays scientific evidence and interpretation.
+
+The user generates a report.
+
+Do not fake this workflow.
+
+---
+
+# 8. SIX SPECIALIZED AI AGENTS
+
+Implement six distinct specialized agent modules.
+
+These agents must operate through a coordinated Gemini-based orchestration architecture.
+
+Each agent must have:
+
+- Name.
+- Role.
+- Mission.
+- Inputs.
+- Outputs.
+- Execution responsibility.
+- Status.
+- Error handling.
+
+## AGENT 1 — EARTH SCOUT
+
+Role:
+NASA Data Discovery Agent.
+
+Mission:
+Identify the most relevant NASA datasets for an investigation.
+
+Responsibilities:
+
+- Understand investigation requests.
+- Identify environmental variables.
+- Recommend appropriate NASA datasets.
+- Determine geographic coverage.
+- Determine temporal coverage.
+- Identify dataset resolution.
+- Explain dataset limitations.
+- Prepare data retrieval configurations.
+
+The agent must not invent dataset availability.
+
+## AGENT 2 — TREND DETECTIVE
+
+Role:
+Statistical Trend Analysis Agent.
+
+Mission:
+Detect long-term changes in environmental variables.
+
+Responsibilities:
+
+- Analyze historical time-series data.
+- Calculate trend slopes.
+- Identify trend direction.
+- Calculate percentage changes where appropriate.
+- Assess statistical significance.
+- Detect long-term environmental patterns.
+
+Implement numerical calculations programmatically.
+
+Methods may include:
+
+- Linear regression.
+- Mann-Kendall test.
+- Sen's slope estimator.
+- Seasonal analysis.
+
+Numerical results must never be invented by Gemini.
+
+## AGENT 3 — ANOMALY HUNTER
+
+Role:
+Environmental Anomaly Detection Agent.
+
+Mission:
+Identify unusual environmental observations.
+
+Responsibilities:
+
+- Compare measurements against historical baselines.
+- Detect unusual temperature observations.
+- Detect precipitation anomalies.
+- Identify significant deviations.
+- Generate anomaly timelines.
+
+Implement suitable methods:
+
+- Z-score.
+- Standard deviation analysis.
+- Seasonal anomaly analysis.
+- Baseline comparison.
+
+Clearly distinguish anomalies from normal seasonal variation.
+
+## AGENT 4 — CORRELATION INTELLIGENCE
+
+Role:
+Earth-System Relationship Agent.
+
+Mission:
+Investigate relationships between environmental variables.
+
+Responsibilities:
+
+- Investigate relationships between environmental variables.
+- Calculate correlation coefficients.
+- Compare temperature and precipitation.
+- Compare vegetation and rainfall.
+- Investigate simultaneous changes.
+- Identify relationships warranting further research.
+
+Use Pearson or Spearman correlation where appropriate.
+
+Correlation must never be presented as proof of causation.
+
+## AGENT 5 — EARTH EXPLAINER
+
+Role:
+Scientific Interpretation Agent.
+
+Mission:
+Convert computational findings into accessible scientific explanations.
+
+Responsibilities:
+
+- Explain what changed.
+- Explain where it changed.
+- Explain when it changed.
+- Explain how it changed.
+- Explain the rate of change.
+- Describe potential environmental implications.
+- Explain uncertainty.
+- Explain limitations.
+
+Provide two explanation modes:
+
+### Scientific Mode
+
+Professional, precise, research-oriented explanations.
+
+### Simplified Gen Z-Friendly Mode
+
+Accessible, engaging, understandable scientific explanations.
+
+Example:
+
+Scientific:
+"The investigated region exhibits a positive temperature trend during the selected period. Further investigation alongside precipitation and vegetation observations may help characterize the regional environmental response."
+
+Simplified:
+"Here's the signal: temperatures are trending upward in this region. Let's check whether rainfall and vegetation show related changes."
+
+Maintain scientific accuracy in both modes.
+
+## AGENT 6 — MISSION REPORTER
+
+Role:
+Scientific Report Generation Agent.
+
+Mission:
+Consolidate all agent findings into a comprehensive scientific investigation report.
+
+Responsibilities:
+
+- Consolidate agent outputs.
+- Generate scientific reports.
+- Summarize datasets.
+- Include statistical evidence.
+- Explain methodology.
+- Document limitations.
+- Recommend follow-up investigations.
+
+Report sections:
+
+1. Investigation Title.
+2. Executive Summary.
+3. Geographic Region.
+4. Coordinates.
+5. Investigation Period.
+6. Environmental Variables.
+7. NASA Data Sources.
+8. Methodology.
+9. Trend Findings.
+10. Anomaly Findings.
+11. Correlation Findings.
+12. Scientific Interpretation.
+13. Environmental Implications.
+14. Limitations.
+15. Recommended Follow-Up.
+16. References.
+
+---
+
+# 9. MULTI-AGENT ORCHESTRATION
+
+Implement a proper agent orchestration system.
+
+Workflow:
+
+USER
+↓
+QUERY PARSER
+↓
+EARTH SCOUT
+↓
+NASA DATA RETRIEVAL
+↓
+DATA VALIDATION
+↓
+SCIENTIFIC COMPUTATION ENGINE
+↓
+TREND DETECTIVE
+↓
+ANOMALY HUNTER
+↓
+CORRELATION INTELLIGENCE
+↓
+EARTH EXPLAINER
+↓
+MISSION REPORTER
+↓
+ORBITERA INVESTIGATION DASHBOARD
+
+Independent analytical agents may execute in parallel after validated data becomes available.
+
+The orchestration engine must support:
+
+- Structured inputs.
+- Structured outputs.
+- Sequential execution.
+- Parallel execution where appropriate.
+- Agent status tracking.
+- Error handling.
+- Retry logic.
+- Cancellation.
+- Investigation history.
+- Progress updates.
+
+Use structured JSON outputs.
+
+Create a visual agent mission timeline.
+
+Display agent states:
+
+- Idle.
+- Queued.
+- Running.
+- Completed.
+- Failed.
+- Skipped.
+
+Only display actual execution states.
+
+---
+
+# 10. NASA DATA INTEGRATION
+
+NASA Earth science datasets must be the primary scientific source.
+
+## NASA POWER API
+
+Use NASA POWER for supported meteorological and solar variables.
+
+Potential variables:
+
+- T2M.
+- T2M_MAX.
+- T2M_MIN.
+- PRECTOTCORR.
+- RH2M.
+
+Use the correct supported endpoints, units, and parameter definitions.
+
+## NASA Giovanni
+
+Provide supplementary scientific exploration and visualization.
+
+Do not claim programmatic integration if only a link is provided.
+
+## NASA Worldview
+
+Provide Earth imagery and geographic context.
+
+Use an appropriate embedded visualization or linked experience where practical.
+
+## NASA Earthdata
+
+Provide dataset discovery and access to relevant Earth science collections.
+
+## Data Integrity Requirements
+
+- Actual NASA measurements.
+- Source attribution.
+- Dataset names.
+- Units.
+- Geographic coverage.
+- Temporal coverage.
+- Retrieval timestamps.
+- Data quality indicators.
+- Missing-data indicators.
+- Data limitations.
+
+Do not silently replace real data with mock data.
+
+If simulated data is required during development, clearly label it as simulated.
+
+---
+
+# 11. EARTH DATA EXPLORER
+
+Create a complete desktop-oriented data exploration page.
+
+Features:
+
+- Dataset selection.
+- Variable selection.
+- Location search.
+- Date selection.
+- Data table.
+- Interactive time-series chart.
+- Map visualization.
+- Dataset metadata.
+- Units.
+- Temporal resolution.
+- Data quality indicators.
+- Download functionality.
+
+Users must be able to examine available data before conducting investigations.
+
+---
+
+# 12. TREND INTELLIGENCE CENTER
+
+Create a dedicated trend analysis interface.
+
+Display:
+
+- Trend direction.
+- Trend magnitude.
+- Trend slope.
+- Units.
+- Start and end dates.
+- Statistical significance.
+- Sample count.
+- Confidence intervals where calculated.
+- Missing-data information.
+
+Use wide desktop charts.
+
+Include:
+
+- Regression lines.
+- Historical time-series.
+- Trend indicators.
+- Anomaly markers.
+- Interactive tooltips.
+
+Trend categories:
+
+- Increasing.
+- Decreasing.
+- Stable.
+- Uncertain.
+- Insufficient Data.
+
+Do not use arbitrary thresholds without documentation.
+
+---
+
+# 13. ANOMALY DETECTION CENTER
+
+Create a professional anomaly analysis interface.
+
+Features:
+
+- Anomaly timeline.
+- Historical baseline.
+- Observed value.
+- Deviation.
+- Severity visualization.
+- Detection method.
+- Variable filtering.
+- Date filtering.
+- Anomaly details.
+
+Do not use alarmist wording.
+
+ORBITERA is an exploratory scientific platform, not an official disaster prediction system.
+
+---
+
+# 14. CORRELATION LAB
+
+Create a desktop-oriented scientific relationship analysis workspace.
+
+Features:
+
+- Multi-variable selection.
+- Correlation matrix.
+- Scatter plots.
+- Correlation coefficients.
+- Trend comparison.
+- Statistical context.
+- Time-range controls.
+- Scientific interpretation.
+
+Support appropriate Pearson and Spearman methods.
+
+Display warnings when data conditions make a calculation unsuitable.
+
+Never infer causality solely from correlation.
+
+---
+
+# 15. REGIONAL COMPARISON
+
+Create an advanced regional comparison workspace.
+
+Users can compare:
+
+- Bengaluru vs. Chennai.
+- Mumbai vs. Delhi.
+- Karnataka vs. Tamil Nadu.
+- India vs. other regions.
+- Any supported geographic locations.
+
+Features:
+
+- Side-by-side regional charts.
+- Geographic map.
+- Regional KPI cards.
+- Trend magnitude comparison.
+- Anomaly comparison.
+- Time-range selection.
+- Variable selection.
+- Comparative scientific interpretation.
+
+Use compatible datasets, units, periods, and temporal resolutions.
+
+---
+
+# 16. EARTH INTELLIGENCE MAP
+
+Create an interactive map or globe visualization.
+
+Preferred libraries:
+
+- Leaflet.
+- CesiumJS.
+- Three.js where justified.
+
+Features:
+
+- Geographic selection.
+- Coordinate display.
+- Location search.
+- Investigation markers.
+- Region highlighting.
+- Zoom controls.
+- Data layers.
+- Environmental overlays where supported.
+
+The visualization must use genuine geographic data.
+
+Do not present decorative simulated points as actual observations.
+
+---
+
+# 17. ORBITERA AGENT MISSION CENTER
+
+Create a dedicated desktop mission-control interface.
+
+This page must visually demonstrate the multi-agent architecture.
+
+Display all six agents in an organized workflow.
+
+Each agent card must show:
+
+- Agent name.
+- Icon.
+- Mission.
+- Current task.
+- Execution status.
+- Processing progress.
+- Output summary.
+- Execution duration.
+- Error details if applicable.
+
+Create a visual agent communication diagram.
+
+Use subtle animations for active processing.
+
+Maintain the bright white theme.
+
+The Mission Center should be one of the most visually impressive pages in the application.
+
+---
+
+# 18. AI SCIENTIFIC ASSISTANT
+
+Implement a context-aware scientific assistant.
+
+It must understand the active investigation.
+
+Users can ask:
+
+- What is changing in this region?
+- Why is this trend important?
+- What is the rate of change?
+- Which period experienced the largest anomaly?
+- Are temperature and precipitation related?
+- What dataset was used?
+- What are the limitations?
+- What should I investigate next?
+
+Answers must be grounded in actual data and computed results.
+
+The assistant must not fabricate measurements.
+
+---
+
+# 19. SCIENTIFIC REPORT GENERATION
+
+Create a report management system.
+
+Features:
+
+- Generate reports.
+- Preview reports.
+- Download PDF.
+- Export CSV.
+- View previous reports.
+- Save reports.
+- Copy summaries.
+
+The report must include:
+
+- Investigation metadata.
+- Dataset references.
+- Methodology.
+- Trend results.
+- Anomalies.
+- Correlation analysis.
+- Scientific interpretation.
+- Limitations.
+- Follow-up recommendations.
+
+Create a premium professional scientific report design.
+
+---
+
+# 20. SAVED INVESTIGATIONS
+
+Implement persistence.
+
+Each investigation should store:
+
+- Investigation ID.
+- Title.
+- Location.
+- Coordinates.
+- Variables.
+- Time period.
+- Dataset references.
+- Statistical results.
+- Agent outputs.
+- Report.
+- Creation timestamp.
+
+Use appropriate storage.
+
+Do not create fake authentication.
+
+If authentication is unnecessary for the prototype, use a practical local persistence solution.
+
+---
+
+# 21. GEN Z-FRIENDLY EXPERIENCE
+
+The platform must remain professional while being friendly to Gen Z users.
+
+Implement:
+
+- Smooth transitions.
+- Interactive tooltips.
+- Smart search.
+- Contextual recommendations.
+- Clear onboarding.
+- Accessible terminology.
+- Modern micro-interactions.
+- Helpful explanations.
+
+Example interface text:
+
+"Let's investigate what Earth's data is telling us."
+
+"Your investigation is ready to launch."
+
+"Signal detected. Explore the evidence."
+
+"Here's what changed."
+
+"Want to go deeper? Compare another variable."
+
+Avoid excessive slang.
+
+The product must feel like premium scientific software.
+
+---
+
+# 22. ACCESSIBILITY
+
+Implement WCAG 2.2 AA-oriented accessibility practices.
+
+Requirements:
+
+- Semantic HTML.
+- Keyboard navigation.
+- Visible focus indicators.
+- Proper form labels.
+- Accessible dropdowns.
+- Accessible dialogs.
+- Screen-reader-friendly structures.
+- Color contrast compliance.
+- Reduced-motion support.
+- Accessible chart descriptions.
+- Responsive design.
+- Accessible error messages.
+
+Never use color as the sole indicator of trend direction.
+
+---
+
+# 23. TECHNICAL ARCHITECTURE
+
+Use a modern maintainable architecture.
+
+Frontend:
+
+- React.
+- TypeScript.
+- Vite or an appropriate supported framework.
+- Tailwind CSS.
+
+Backend:
+
+- Node.js.
+- TypeScript.
+
+AI:
+
+- Gemini.
+- Role-based agent modules.
+- Structured JSON outputs.
+- Agent orchestration.
+
+Charts:
+
+- Recharts.
+
+Maps:
+
+- Leaflet.
+
+Scientific Computation:
+
+- TypeScript or Python.
+
+Data Sources:
+
+- NASA POWER.
+- NASA Giovanni.
+- NASA Worldview.
+- NASA Earthdata.
+
+Storage:
+
+- Appropriate persistent storage.
+
+Create separate modules for:
+
+- Pages.
+- UI components.
+- NASA API services.
+- Scientific computation.
+- Agent modules.
+- Agent orchestration.
+- Data validation.
+- Report generation.
+- State management.
+- Configuration.
+
+Do not place the entire application in a single component.
+
+---
+
+# 24. DATA INTEGRITY
+
+Maintain scientific transparency.
+
+Clearly distinguish:
+
+1. NASA observations.
+2. Processed data.
+3. Computed statistics.
+4. AI interpretations.
+5. Hypotheses.
+6. Limitations.
+
+Each finding must be traceable to source data and methodology.
+
+When data is insufficient, display:
+
+"Insufficient Data."
+
+When uncertainty is high, display:
+
+"Uncertain Result."
+
+Do not generate fake confidence percentages.
+
+Do not claim AI-generated interpretations are official NASA conclusions.
+
+---
+
+# 25. ERROR HANDLING
+
+Implement proper error handling for:
+
+- NASA API failures.
+- Network failures.
+- Invalid locations.
+- Unsupported variables.
+- Invalid date ranges.
+- Missing data.
+- Agent failures.
+- Statistical computation failures.
+- Report generation failures.
+
+Provide:
+
+- Clear messages.
+- Retry buttons.
+- Recovery mechanisms.
+- Loading states.
+- Error states.
+
+Do not display raw backend errors to users.
+
+---
+
+# 26. PERFORMANCE
+
+Optimize the desktop experience.
+
+Implement:
+
+- Efficient API calls.
+- Caching.
+- Lazy loading where useful.
+- Memoization.
+- Efficient chart rendering.
+- Reusable components.
+- Minimal unnecessary re-renders.
+- Loading skeletons.
+- Progressive loading.
+
+The dashboard must remain responsive during investigations.
+
+Do not block the entire interface during processing.
+
+---
+
+# 27. SECURITY
+
+Implement practical security standards.
+
+- Never hardcode secret API keys in frontend source code.
+- Use appropriate server-side configuration.
+- Validate user inputs.
+- Sanitize user-generated content.
+- Avoid exposing internal errors.
+- Use secure storage practices.
+- Avoid unnecessary permissions.
+
+---
+
+# 28. UNIQUE ORBITERA INNOVATION FEATURES
+
+Implement the following differentiators.
+
+## FEATURE A — EARTH SIGNAL SCORE
+
+Create an exploratory trend-strength indicator based on documented statistical factors.
+
+Do not invent an arbitrary AI score.
+
+Explain its methodology and limitations.
+
+## FEATURE B — TREND CONVERGENCE DETECTOR
+
+Investigate simultaneous changes across multiple environmental variables.
+
+Show:
+
+- Variable trends.
+- Overlapping periods.
+- Statistical evidence.
+- Potential relationships.
+- Limitations.
+
+Do not claim causation without evidence.
+
+## FEATURE C — ENVIRONMENTAL CHANGE TIMELINE
+
+Display:
+
+- Major trend periods.
+- Anomalies.
+- Changes in environmental behavior.
+- Investigation events.
+
+## FEATURE D — WHAT CHANGED? EXPLORER
+
+Create a visual interface answering:
+
+- What changed?
+- Where?
+- When?
+- How much?
+- How fast?
+- What evidence supports it?
+
+## FEATURE E — NEXT INVESTIGATION RECOMMENDER
+
+Recommend scientifically meaningful follow-up investigations.
+
+Examples:
+
+- Investigate another variable.
+- Compare another region.
+- Examine seasonal behavior.
+- Extend the time range.
+- Analyze an anomaly.
+
+## FEATURE F — SCIENTIFIC CONFIDENCE EXPLAINER
+
+Explain the evidence and limitations behind findings.
+
+Do not invent confidence values.
+
+---
+
+# 29. FINAL IMPLEMENTATION INSTRUCTIONS
+
+Now begin actual implementation.
+
+Do not merely explain the architecture.
+
+Do not respond with a plan only.
+
+Generate and implement the working application.
+
+First inspect the current project environment.
+
+Then:
+
+1. Establish the application architecture.
+2. Implement the ORBITERA design system.
+3. Build the premium desktop landing page.
+4. Build the desktop dashboard.
+5. Build the investigation workspace.
+6. Implement NASA data retrieval.
+7. Implement data validation.
+8. Implement statistical computation.
+9. Implement the six agent modules.
+10. Implement the agent orchestration system.
+11. Implement interactive charts.
+12. Implement the Earth intelligence map.
+13. Implement regional comparison.
+14. Implement the correlation lab.
+15. Implement anomaly detection.
+16. Implement report generation.
+17. Implement persistence.
+18. Implement accessibility.
+19. Implement error handling.
+20. Implement responsive behavior.
+21. Test all major workflows.
+22. Fix errors.
+23. Verify the complete application.
+
+Do not stop after generating the landing page.
+
+Do not stop after creating the dashboard.
+
+Do not stop after generating the UI.
+
+Continue until actual functional features are implemented.
+
+If the implementation exceeds one generation pass, divide the work into logical phases while maintaining the architecture and preserving existing functionality.
+
+Do not unnecessarily rewrite working files.
+
+Do not remove existing functionality when adding new features.
+
+Do not create nonfunctional placeholder pages.
+
+Do not simulate scientific outputs without labeling them.
+
+Do not fake agent execution.
+
+The primary focus must be:
+
+- Desktop-first UI/UX.
+- Scientific credibility.
+- Real NASA data.
+- Functional multi-agent architecture.
+- Interactive data visualization.
+- Evidence-based interpretation.
+- Accessibility.
+- Professional presentation.
+
+FINAL OBJECTIVE:
+
+Build ORBITERA as a complete, premium, desktop-first Earth-system trend investigation platform.
+
+It must enable users to investigate Earth's changing environmental systems through actual NASA datasets, computational scientific analysis, collaborative specialized agents, interactive visualizations, and explainable scientific findings.
+
+The website must be visually outstanding, scientifically credible, functionally complete, user-friendly, and suitable for a globally recognized NASA Space Apps Challenge demonstration.
+
+BUILD THE ACTUAL APPLICATION NOW.
